@@ -10,7 +10,7 @@ STOP_WORDS = frozenset(('a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'can',
                         'for', 'from', 'have', 'if', 'in', 'is', 'it', 'may',
                         'not', 'of', 'on', 'or', 'tbd', 'that', 'the', 'this',
                         'to', 'us', 'we', 'when', 'will', 'with', 'yet',
-                        'you', 'your',u'的',u'了',u'和'))
+                        'you', 'your',u'的',u'了',u'和',u'什么'))
 
 accepted_chars = re.compile(ur"[\u4E00-\u9FA5]+")
 
