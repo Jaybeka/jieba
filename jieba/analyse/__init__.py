@@ -17,7 +17,7 @@ for line in lines:
 
 median_idf = sorted(idf_freq.values())[len(idf_freq)/2]
 stop_words= set([
-"the","of","is","and","to","in","that","we","for","an","are","by","be","as","on","with","can","if","from","which","you","it","this","then","at","have","all","not","one","has","or","that",u"什么",u"姐姐",u"一个"
+"the","of","is","and","to","in","that","we","for","an","are","by","be","as","on","with","can","if","from","which","you","it","this","then","at","have","all","not","one","has","or","that","什么","姐姐","一个"
 ])
 
 def extract_tags(sentence,topK=20):
